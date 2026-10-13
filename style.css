@@ -1,0 +1,47 @@
+h1{
+    color: blue;
+}
+.second{
+    color: darkred;
+}
+img{
+    width: 500px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.banner{
+    width: 1300px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.book{
+    width:250px;
+}
+header{
+    background: linear-gradient(120deg, #fff1f1, #fedaff)
+}
+nav a{
+    margin-right:16px;
+}
+hr {
+    background-color: #9864b8; 
+    height: 4px;
+}
+.hobbies{
+    list-style:none;
+}
+.hobbies li::before {
+    content: "✦";
+    margin-right: 10px;
+    color:#9864b8;
+}
+div{
+    background-color:#fff;
+}
+.book1{
+    display:flex;
+    width:max-content;
+    margin:10px;
+    padding:5px;
+
+}
