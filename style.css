@@ -27,6 +27,11 @@ img{
 .book{
     width:250px;
 }
+.pdog{
+    width:500px;
+    height:auto;
+    margin-bottom:-20px;
+}
 header{
     background: linear-gradient(120deg, #fff1f1, #fedaff)
 }
@@ -130,4 +135,16 @@ button:hover{
 .tbooks th, .tbooks td{
     padding:10px 15px;
     text-align:left;
+}
+.tbooks thead{
+    background:#663188;
+    color:#fff;
+}
+.tbooks tbody tr:nth-child(even) {
+    background:#f4e6e6;
+}
+div.ddog{
+    display:flex;
+    gap:16px;
+    justify-items: auto;
 }
