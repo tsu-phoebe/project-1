@@ -6,6 +6,8 @@ h1{
 }
 h2{
     margin-bottom:-10px;
+    margin-top:-5px;
+    padding:2px;
 }
 .author{
     margin-left:30px;
@@ -84,4 +86,35 @@ a{
 }
 .nav-link{
     color:#9864b8
+}
+.message-board{
+    max-width:auto;
+    display:grid;
+    background: #f4e6e6;
+    padding:5px;
+    gap:16px;
+}
+.message-board label{
+    font-weight:600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.message-board input{
+    padding:12px 14px;
+    border: 1px solid #c61e1e;
+    font-size:1rem;
+}
+.message-board input:focus {
+    border-color:#663188;
+    outline:none;
+    box-shadow:0 0 0 3px #961ec662;
+}
+button {
+    background:#9864b8;
+    color:#fff;
+    padding: 12px 20px;
+    font-weight:600;
+    cursor:pointer;
+}
+button:hover{
+    background:#67437d;
 }
