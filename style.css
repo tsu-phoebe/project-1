@@ -4,10 +4,18 @@ h1{
 .second{
     color: darkred;
 }
+h2{
+    margin-bottom:-10px;
+}
+.author{
+    margin-left:30px;
+    color:crimson;
+}
 img{
     width: 500px; 
     padding-top: 5px; 
     padding-bottom: 5px;
+    padding-right:5px;
 }
 .banner{
     width: 1300px;
@@ -20,8 +28,22 @@ img{
 header{
     background: linear-gradient(120deg, #fff1f1, #fedaff)
 }
+nav ul{
+    display:flex;
+    gap:16px;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
 nav a{
     margin-right:16px;
+    margin-top:-10px;
+    display:block;
+    padding: 12px 20px;
+}
+nav a:hover, .active{
+    background-color: #9864b8;
+    color: #fff;
 }
 hr {
     background-color: #9864b8; 
@@ -40,8 +62,26 @@ div{
 }
 .book1{
     display:flex;
-    width:max-content;
-    margin:10px;
-    padding:5px;
+    gap:12px;
 
+}
+.info{
+    padding-right:20px;
+}
+blockquote{
+    border-left: 2px solid #00000086;
+    padding: 10px;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+.cite{
+    margin-left:50px;
+    margin-top:-10px;
+}
+a{
+    color:#c15372
+}
+.nav-link{
+    color:#9864b8
 }
