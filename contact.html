@@ -22,16 +22,17 @@
   <main>
     <h1>Contact</h1>
     <p>Here you can input anything to let me know— if you just wanna say 'Hi!' or if you have any suggestions for the website, you can tell me below. Don't put anything mean or disrespctful down or else I'll come to your house and move all your furniture around and not tell you.</p>
-    <form name="myForm" class="message-board" onsubmit="return validateForm()">
-        <h2 class="form-title">Thoughts? Feelings?</h2>
-        <label for="name">Name <b class="required">* Required</b></label>
-        <input type="text" id="name" name="fname">
-        <label for="email">Email <b class="required">* Required</b></label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message <b class="required">* Required</b></label>
-        <input type="text" id="message" name="message" rows="4">
-        <button type="submit">Send Message</button>
-    </form>
+  <form id="messageForm" name="myForm" class="myForm" novalidate>
+    <label for="name">Your name:</label><br>
+    <input type="text" id="name" name="fname"><br>
+    <div class="error" id="nameError"></div>
+
+    <label for="message">Your message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br>
+    <div class="error" id="messageError"></div>
+
+    <button type="submit">Send</button>
+  </form>
   </main>
     <script src="script.js"></script>
 </body>

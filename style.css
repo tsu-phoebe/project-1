@@ -92,23 +92,22 @@ a{
 .nav-link{
     color:#9864b8
 }
-.message-board{
-    max-width:auto;
+.myForm{
+    max-width:600px;
     display:grid;
     background: #f4e6e6;
     padding:5px;
-    gap:16px;
 }
-.message-board label{
+.myForm label{
     font-weight:600;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.message-board input{
+.myForm input{
     padding:12px 14px;
     border: 1px solid #c61e1e;
     font-size:1rem;
 }
-.message-board input:focus {
+.myForm input:focus {
     border-color:#663188;
     outline:none;
     box-shadow:0 0 0 3px #961ec662;
@@ -148,3 +147,5 @@ div.ddog{
     gap:16px;
     justify-items: auto;
 }
+.error { color: #c00; font-size: 0.85em; margin: 2px 0 8px; min-height: 1em; }
+    input.invalid, textarea.invalid { border: 1px solid #c00; }
